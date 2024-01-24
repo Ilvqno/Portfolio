@@ -1,0 +1,227 @@
+@media only screen and (max-width: 600px) {
+    .button {
+        display: none;
+    }
+
+    .red-button {
+        display: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        margin-left: 10px;
+    }
+
+    .socials {
+        display: flex;
+        gap: 12px;
+        margin-left: 182px;
+        margin-top: -60px;
+    }
+
+    .logo-footer li a {
+        font-family: 'Outfit', sans-serif;
+        font-weight: bold;
+        font-size: 42px;
+    }
+
+    .in-touch h1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 100px;
+        margin-top: -125px;
+    }
+
+    .in-touch h2 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: -30px;
+        margin-left: 150px;
+    }
+
+    .contact-container {
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+
+    .contact-form {
+        width: 380px;
+        height: 700px;
+        border: 1px solid #D1CFC7;
+        border-radius: 20px;
+    }
+
+    input {
+        margin-top: 22px;
+        background-color: transparent;
+        border: none;
+        height: 50px;
+        width: 300px;
+        border: 1px solid #D1CFC7;
+        border-radius: 50px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        color: #000;
+        outline: none;
+        padding-left: 22px;
+    }
+
+    textarea {
+        margin-top: 22px;
+        background-color: transparent;
+        border: none;
+        height: 300px;
+        width: 300px;
+        border: 1px solid #D1CFC7;
+        border-radius: 50px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        color: #000;
+        outline: none;
+        padding-left: 22px;
+        resize: none;
+        padding: 22px 22px 22px 22px;
+    }
+
+    .icon {
+        width: 50px;
+    }
+
+    .animated-dot {
+        color: #fe330a;
+    }
+
+    .move-right-logo {
+        margin-left: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .animated-dot {
+        color: #efeae3;
+        transition: .3s;
+        margin-left: -2px;
+    }
+
+    .nav-bar a:hover .animated-dot {
+        color: #fe330a;
+        margin-left: 1px;
+    }
+}
+
+@media only screen and (max-width: 393px) {
+    .button {
+        display: none;
+    }
+
+    .red-button {
+        display: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        margin-left: 10px;
+    }
+
+    .socials {
+        display: flex;
+        gap: 12px;
+        margin-left: 182px;
+        margin-top: -60px;
+    }
+
+    .logo-footer li a {
+        font-family: 'Outfit', sans-serif;
+        font-weight: bold;
+        font-size: 42px;
+    }
+
+    .in-touch h1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 80px;
+        margin-top: -125px;
+    }
+
+    .in-touch h2 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: -30px;
+        margin-left: 130px;
+    }
+
+    .contact-container {
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+    .contact-form {
+        width: 360px;
+        height: 680px;
+        border: 1px solid #D1CFC7;
+        border-radius: 20px;
+    }
+
+    input {
+        margin-top: 22px;
+        background-color: transparent;
+        border: none;
+        height: 50px;
+        width: 300px;
+        border: 1px solid #D1CFC7;
+        border-radius: 50px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        color: #000;
+        outline: none;
+        padding-left: 22px;
+    }
+
+    textarea {
+        margin-top: 22px;
+        background-color: transparent;
+        border: none;
+        height: 300px;
+        width: 280px;
+        border: 1px solid #D1CFC7;
+        border-radius: 50px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        color: #000;
+        outline: none;
+        padding-left: 22px;
+        resize: none;
+        padding: 22px 22px 22px 22px;
+    }
+
+    .info-contact {
+        margin-top: 22px;
+        margin-left: 18px;
+    }
+
+    .icon {
+        width: 40px;
+    }
+
+    .animated-dot {
+        color: #fe330a;
+    }
+
+    .move-right-logo {
+        margin-left: 0px;
+    }
+
+}

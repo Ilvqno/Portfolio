@@ -1,0 +1,505 @@
+html,
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #efeae3;
+    scroll-behavior: smooth;
+}
+
+.nav-bar {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li a {
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 42px;
+    color: black;
+}
+
+.links {
+    margin-right: 22px;
+}
+
+.button {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    border-radius: 100px;
+    background: none;
+    border: 2px solid #000;
+    color: #000;
+    width: 125px;
+    height: 50px;
+    padding: 12px 40px 12px 40px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.button:hover {
+    color: white;
+    background-color: #0A1117;
+}
+
+.red-button {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    border-radius: 100px;
+    background: #fe330a;
+    color: #fff;
+    padding: 12px 40px 12px 40px;
+    text-decoration: none;
+}
+
+.software-developer {
+    margin-top: 200px;
+}
+
+.software-developer h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 160px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.software-developer h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 160px;
+    font-weight: 300;
+    margin-left: 350px;
+    margin-top: -100px;
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 62px;
+    font-weight: 600;
+    margin-left: 32px;
+}
+
+.about-box p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 32px;
+}
+
+.skills-box {
+    margin-top: 300px;
+}
+
+.contact-button {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    border-radius: 100px;
+    background: #fe330a;
+    color: #fff;
+    padding: 12px 40px 12px 40px;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+}
+
+.cards {
+    height: 450px;
+    width: 380px;
+    border: 1px solid #D1CFC7;
+    border-radius: 20px;
+}
+
+.code-icon {
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.cards h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.cards p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 32px;
+}
+
+.work-box {
+    display: flex;
+    justify-content: center;
+}
+
+.work-box h4 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 122px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -60px;
+}
+
+.work {
+    background-color: #D1CFC7;
+    height: 1000px;
+    width: 1300px;
+    border-radius: 100px;
+}
+
+.button-project {
+    width: 180px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background: none;
+    border: 1px solid #000;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.project {
+    width: 140px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background: none;
+    border: 1px solid #000;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    transition: .3s;
+}
+
+.project:hover {
+    color: white;
+    background-color: #0A1117;
+}
+
+.project-info {
+    background: linear-gradient(180deg, #0A1117 0%, #192937 100%);
+    width: 700px;
+    height: 700px;
+    border-radius: 100px;
+    margin-left: 42px;
+
+}
+
+.pink-goose h4 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+    display: flex;
+    margin-right: 300px;
+    margin-left: 760px;
+}
+
+.in-touch {
+    margin-top: 200px;
+}
+
+.in-touch h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 110px;
+    font-weight: bold;
+    margin-left: 730px;
+}
+
+.in-touch h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 110px;
+    font-weight: bold;
+    margin-top: -110px;
+    margin-left: 975px;
+}
+
+.contact-container {
+    margin-left: 200px;
+    margin-top: -170px;
+}
+
+.contact-form {
+    width: 720px;
+    height: 1000px;
+    border: 1px solid #D1CFC7;
+    border-radius: 20px;
+}
+
+.info-contact {
+    margin-top: 32px;
+    margin-left: 18px;
+}
+
+input {
+    margin-top: 22px;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 660px;
+    border: 1px solid #D1CFC7;
+    border-radius: 50px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #000;
+    outline: none;
+    padding-left: 22px;
+}
+
+::placeholder {
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #000;
+}
+
+textarea {
+    margin-top: 22px;
+    background-color: transparent;
+    border: none;
+    height: 600px;
+    width: 640px;
+    border: 1px solid #D1CFC7;
+    border-radius: 50px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #000;
+    outline: none;
+    padding-left: 22px;
+    resize: none;
+    padding: 32px 22px 22px 22px;
+}
+
+.button-contact {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    border-radius: 100px;
+    pointer-events: none;
+    background: #fe330a;
+    color: #fff;
+    padding: 12px 40px 12px 40px;
+    text-decoration: none;
+    margin-left: 12px;
+    border: none;
+    margin-top: 60px;
+}
+
+.footer {
+    background-color: #D1CFC7;
+    margin-top: 200px;
+}
+
+.footer-col h4 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.footer-bar {
+    list-style: none;
+}
+
+.holder {
+    margin-top: -52px;
+}
+
+
+.footer-bar li a {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-left: 100px;
+}
+
+.logo-footer {
+    list-style: none;
+}
+
+.logo-footer li a {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.move-right-logo {
+    margin-left: 260px;
+}
+
+.footer-col-2 {
+    margin-top: 30px;
+}
+
+.socials {
+    display: flex;
+    gap: 12px;
+    margin-top: 22px;
+    margin-left: -72px;
+    margin-left: 200px;
+}
+
+.project-img {
+    border-radius: 50px;
+    margin-left: 125px;
+}
+
+.button-work {
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 12px 40px 12px 40px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 100px;
+}
+
+.active {
+    background-color: #0A1117;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.about-project-1 p {
+    display: flex;
+    justify-content: end;
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: -600px;
+    margin-right: 95px;
+}
+
+.about-project-2 p {
+    display: flex;
+    justify-content: end;
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: -600px;
+    margin-right: 125px;
+}
+
+.about-project-3 p {
+    display: flex;
+    justify-content: end;
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: -600px;
+    margin-right: 95px;
+}
+
+@media only screen and (min-width: 600px) {
+    .slideshow-container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .software-developer h1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 160px;
+        font-weight: bold;
+        margin-left: 400px;
+    }
+
+    .software-developer h2 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 160px;
+        font-weight: 300;
+        margin-left: 650px;
+        margin-top: -100px;
+    }
+
+    .move-right-logo {
+        margin-left: 650px;
+    }
+
+    .socials {
+        margin-left: 590px;
+    }
+
+    .in-touch h1 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 110px;
+        font-weight: bold;
+        margin-left: 1030px;
+    }
+
+    .in-touch h2 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 110px;
+        font-weight: bold;
+        margin-top: -110px;
+        margin-left: 1275px;
+    }
+
+    .contact-container {
+        margin-left: 520px;
+        margin-bottom: 120px;
+    }
+
+    h3 {
+        font-family: 'Outfit', sans-serif;
+        font-size: 62px;
+        font-weight: 600;
+        margin-left: 62px;
+    }
+
+    .about-box p {
+        font-family: 'Outfit', sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        margin-left: 62px;
+    }
+
+    .skills-box {
+        margin-top: 300px;
+    }
+
+    .contact-button {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        border-radius: 100px;
+        background: #fe330a;
+        color: #fff;
+        padding: 12px 40px 12px 40px;
+        text-decoration: none;
+        margin-left: 62px;
+    }
+}
